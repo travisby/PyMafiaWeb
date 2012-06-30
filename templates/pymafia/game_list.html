@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %} - pymafia Games {% endblock %}
+{% load gametags %}
+{% block content %}
+
+    <h2>Games</h2>
+        {% for game in object_list %}
+        <div class="row">
+            <div class="span3">{ game.name }}</div>
+            <div class="span3">{{ game.character_set.count }}</div>
+		</div>
+        {% endfor %}
+        
+{% endblock %}

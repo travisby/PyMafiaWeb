@@ -1,8 +1,9 @@
 from django.contrib import admin
-from pymafia.models import Action, Character, Classification, Game, Skill
+from pymafia import Action, Player, Classification, Game, Skill, PyMafiaUser
 
-admin.site.register(Game)
-admin.site.register(Character)
 admin.site.register(Action)
+admin.site.register(Player)
 admin.site.register(Classification)
+admin.site.register(Game)
+admin.site.register(PyMafiaUser)
 admin.site.register(Skill)
