@@ -127,14 +127,15 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_nose',
+    'lettuce.django',
     'tastypie',
+    'admin',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     'django.contrib.admindocs',
     'debug_toolbar',
     'pymafia',
-    'admin',
 )
 
 TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
