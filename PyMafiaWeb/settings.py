@@ -116,8 +116,7 @@ TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates"
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-    '/home/travis/Documents/dev/personal/PyMafiaWeb/templates',
-    '/home/travis/Documents/dev/personal/PyMafiaWeb/templates/pymafia',
+    os.path.join(PATH, 'template'),
 
 )
 
