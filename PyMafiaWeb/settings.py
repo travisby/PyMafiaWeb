@@ -128,8 +128,6 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_nose',
-    'lettuce.django',
     'tastypie',
     'admin',
     # Uncomment the next line to enable the admin:
